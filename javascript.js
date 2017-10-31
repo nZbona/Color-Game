@@ -103,10 +103,10 @@ window.onload = function(){
 				console.log(squareColor);
 				console.log(pickedColor);
 				if( squareColor === pickedColor){
-					document.getElementById("gameResult").innerHTML = "Ai ghicit culoarea!";
+					document.getElementById("gameResult").innerHTML = "You guessed the color!";
 					document.getElementById("background").style.height = '1500px';
 				}else{
-					document.getElementById("gameResult").innerHTML = "Mai incearca!";
+					document.getElementById("gameResult").innerHTML = "Choose again :)";
 					document.getElementById("background").style.height = '1500px';
 				}
 			});
